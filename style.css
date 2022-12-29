@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Kanit:wght@500&family=Oswald&family=Righteous&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Righteous', cursive;
+}
+
+body{
+    height: 100vh;
+    background: rgb(31, 60, 124);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    place-items: center;
+}
+
+.counter-container{
+    text-align: center;
+}
+
+.counter{
+    font-size: 60px;
+    color: rgb(255, 147, 6);
+}
+
+i{
+    opacity: 0.9;
+}
+
+span{
+    opacity: 0.9;
+    font-size: 18px;
+}
+
+
